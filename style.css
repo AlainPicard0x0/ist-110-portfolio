@@ -110,7 +110,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 15px 200px;
+    padding: 30px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,7 +119,7 @@ header {
 
 header.sticky {
     background: #087eec;
-    padding: 10px 200px;
+    padding: 20px 200px;
 }
 
 header .brand {
@@ -544,7 +544,6 @@ body {
         background: #fff;
         top: 0;
         right: 0;
-        width: 380px;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -590,6 +589,30 @@ body {
         filter: invert(1);
     }
 
+    .btn {
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        margin: 30px auto 0 auto;
+    }
+
+    .social-media-icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-section .content .col-left .card-image {
+       height:50%;
+    }
+
+    .about-section .content .col-left .card-image img {
+       height: 50%;
+    }
+
+    #about-section {
+        height: 100vh;
+    }
+
     main,
     section {
         padding: 80px 20px;
@@ -601,6 +624,7 @@ body {
 
     .animated-h3 h3 {
         font-size: 2.2em;
+        text-align: center;
     }
 
     .title-section {
