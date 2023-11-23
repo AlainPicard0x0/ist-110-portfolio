@@ -322,6 +322,20 @@ body {
     flex-basis: 30%;
 }
 
+.work-section .card h3 {
+    text-align: center;
+    margin: 5px;
+}
+
+.work-section .card h3 a {
+    text-decoration: none;
+    color: #087eec;
+}
+
+.work-section .card h3 a:hover {
+    color: rgba(8, 126, 236, 0.75)
+}
+
 .work-section .content .card .card-img {
     position: relative;
     width: 100%;
