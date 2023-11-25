@@ -11,6 +11,13 @@ section {
     padding: 100px 200px;
 }
 
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .home-section {
     position: relative;
     width: 100%;
@@ -357,6 +364,14 @@ body {
 
 .work-section .content .card .card-img img:hover {
     transform: scale(1.2);
+}
+
+.work-section-skills table {
+    text-align: left;
+}
+
+.work-section-skills table td {
+    padding: 5px 20px;
 }
 
 .contact-section .content {
