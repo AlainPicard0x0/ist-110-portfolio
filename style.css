@@ -585,6 +585,15 @@ header.sticky .navigation-section a:hover {
         padding: 20px;
     }
 
+    #about-section-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-section-col-left, .about-section-col-right {
+        width: 90%;
+    }
+
     /* .about-section .content .col-left .card-image {
        min-height: 0;
     } */
