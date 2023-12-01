@@ -496,11 +496,9 @@ header.sticky .navigation-section a:hover {
         padding: 0;
     }
 
-    /* .content {
-        display: flex;
-        flex-direction: column;
-        margin-top: 5px;
-    } */
+    .title-section {
+        font-size: 1.5rem;
+    }
 
     header {
         padding: 30px 20px;
@@ -592,118 +590,20 @@ header.sticky .navigation-section a:hover {
 
     .about-section-col-left, .about-section-col-right {
         width: 90%;
+    }   
+
+    .project-section .card h3 a {
+        font-size: 1.0rem;
     }
 
-    /* .about-section .content .col-left .card-image {
-       min-height: 0;
-    } */
-
-    /* .about-me-title-section:before {
-        top: 40px;
-        left: 50%;
-        width: 160px;
-        height: 4px;
-        background: #087eec;
-        transform: translateX(-50%);
-    } */
-
-    /* .about-section .content .col-right .content-title {
-        font-size: 1rem;
-        font-weight: 800;
-        margin-bottom: 20px;
-    } */
-
-    /* .about-section .content .col-right {
-        width: 80vw;
-    } */
-
-    /* .about-section .content .col-left .card-image img {
-        width: 80vw;
-    } */    
-
-    /* .home-section .content h2 {
-        font-size: 1em;
-    } */
-
-    /* .animated-text h3 {
-        font-size: 2.2em;
-        text-align: center;
-    } */
-
-    /* .title-section {
-        font-size: 1.8rem;
-        margin-bottom: 0px;
-    } */
-
-    /* .about-section .content .col-left .card-image img {
-        width: 80vw;
-        margin-right: 100px;
-    } */
-
-    /* .project-section {
-        display: flex;  
-    } */
-
-    /* .project-section .content {
-        flex-wrap: wrap;
-        margin-top: 10px;
-        flex: 75%;
-        
-    } */
-
-    /* .card h3 a {
-        font-size: 1.0rem;
-    } */
-
-    /* #skills-section-table tbody {
+    #skills-section-table tbody {
         width: 100vw;
         font-size: 0.5rem;
-    } */
+    }
 
     .skills-section table td {
         padding: 5px;
-    }
-
-    
-
-
-
-
-
-
-    /* .about-section .content .col-left .card-image img {
-       height: 50%;
-    } */
-
-    /* #about-section {
-        height: 100vh;
-    } */
-
-    /* .about-section .content {
-        flex-direction: column;
-    } */
-
-    /* .about-section .content .column {
-        position: relative;
-        width: 100%;
-    } */
-
-    /* .about-section .content .col-right {
-        margin-top: 40px;
-    } */
-
-    /* .skills-section .content {
-        flex-direction: column;
-    } */
-
-    /* .skills-section .content .column {
-        position: relative;
-        width: 100%;
-    } */
-
-    /* .skills-section .content .col-right {
-        margin-top: 40px;
-    } */
+    }   
 
     .scroll-to-top-btn {
         z-index: 99;
@@ -729,18 +629,6 @@ header.sticky .navigation-section a:hover {
         opacity: 1;
         pointer-events: auto;
     }
-
-    /* .reveal {
-        position: relative;
-        transform: translateY(50px);
-        opacity: 0;
-        transition: all 1.5s ease;
-    } */
-
-    /* .reveal.active {
-        transform: translateY(0);
-        opacity: 1;
-    } */
 }
 
 
