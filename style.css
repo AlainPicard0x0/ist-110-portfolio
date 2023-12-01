@@ -338,11 +338,7 @@ header.sticky .navigation-section a:hover {
     transform: translateX(-50%);
 }
 
-/* .work-section-skills table {
-    text-align: left;
-} */
-
-.skills-section table {
+.skills-section table td li {
     text-align: left;
 }
 
