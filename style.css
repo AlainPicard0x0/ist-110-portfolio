@@ -248,6 +248,10 @@ header.sticky .navigation-section a:hover {
 /****************************** Project Section *******************************/
 /******************************************************************************/
 
+.spacer {
+    opacity: 0;
+}
+
 .project-section {
     background: #0c131d;
 }
