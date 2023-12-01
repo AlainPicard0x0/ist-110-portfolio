@@ -280,6 +280,7 @@ header.sticky .navigation-section a:hover {
 .project-section .card h3 {
     text-align: center;
     margin: 5px;
+    font-size: 0.8rem;
 }
 
 .project-section .card h3 a {
@@ -484,6 +485,12 @@ header.sticky .navigation-section a:hover {
 /******************************************************************************/
 /******************************* Media Queries ********************************/
 /******************************************************************************/
+
+@media (max-width: 1360px) {
+    .project-section-h3-text {
+        font-size: 0.7rem;
+    }
+}
 
 @media (max-width: 1040px) {
 
