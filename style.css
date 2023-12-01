@@ -505,6 +505,7 @@ header.sticky .navigation-section a:hover {
 
     .title-section {
         font-size: 1.5rem;
+        margin-top: 15px;
     }
 
     header {
@@ -635,6 +636,15 @@ header.sticky .navigation-section a:hover {
         right: 5px;
         opacity: 1;
         pointer-events: auto;
+    }
+
+    @media (max-width: 450px) {
+        #skills-section-applications,
+        #skills-section-codis,
+        #skills-section-hardware,
+        #skills-section-binary {
+            visibility: hidden;
+        }
     }
 }
 
