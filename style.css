@@ -639,11 +639,12 @@ header.sticky .navigation-section a:hover {
     }
 
     @media (max-width: 450px) {
-        #skills-section-applications,
-        #skills-section-codis,
-        #skills-section-hardware,
-        #skills-section-binary {
-            
+        #binary-text {
+            margin-top: 2.5rem;
+        }
+
+        #hardware-text {
+            margin-top: 1.3rem;
         }
     }
 }
