@@ -250,6 +250,8 @@ header.sticky .navigation-section a:hover {
 
 .spacer {
     opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
 }
 
 .project-section {
